@@ -1,0 +1,66 @@
+@import './mixins.scss';
+@import './colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');   
+$wt-light : 300;
+$wt-reg : 400;
+$wt-bold : 700;
+$wt-extraBold : 900;
+.btn1__primary{
+  width: 100px;
+  height: 30px ;
+  border: 1px solid #00a0a1;
+  border-radius: 4px;
+  font-weight: $wt-bold;
+  background-color: #00a0a1; 
+  color: #fff;
+  &:hover,&:active,&:focus{
+    background-color: #00a0a1; 
+    outline: none;
+    border-color: #00a0a1;
+  }
+}
+.btn1__secondary{
+  width: 100px;
+  height: 30px ;
+  border: 1px solid #00a0a1;
+  border-radius: 4px;
+  background-color: #fff; 
+  font-weight: $wt-bold;
+  color: #00a0a1;
+  &:hover,&:active,&:focus{
+    background-color: #00a0a1; 
+    color: #fff; 
+    outline: none;
+    border-color: #00a0a1;
+  }
+}
+.btn2__primary{
+  width: 100px;
+  height: 30px ;
+  border: 1px solid #151f6d;
+  border-radius: 4px;
+  background-color: #151f6d; 
+  font-weight: $wt-bold;
+  color: #fff;
+  &:hover,&:active,&:focus{
+    background-color: #151f6d; 
+    outline: none;
+    border-color: #151f6d;
+  }
+}
+.btn2__secondary{
+  width: 100px;
+  height: 30px ;
+  border: 1px solid #151f6d;
+  border-radius: 4px;
+  font-weight: $wt-bold;
+  background-color: #fff; 
+  color: #151f6d;
+  &:hover,&:active,&:focus{
+    background-color: #151f6d; 
+    outline: none;
+    color: #fff;
+    border-color: #151f6d;
+  }
+}
+$tablet : 1100px;
